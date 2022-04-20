@@ -1,3 +1,6 @@
-html {
-    color: blue;
+@use '../base' as *;
+
+main {
+    font-size: $font-size;
+    background-color: $green;
 }
