@@ -1,7 +1,6 @@
 @use '../base' as *;
 
-// - Mobile: 375px
-// - Desktop: 1440px
+// compressed mode
 
 * {
     box-sizing: border-box;
@@ -40,17 +39,13 @@ body {
     box-shadow: 0 5px 10px hsla(219, 12%, 47%, 0.5);
 
     &__img {
-        // width: 254px;
         width: 97%;
         height: auto;
-        // margin-left: auto;
-        // margin-right: auto;
         border-radius: 10px;
         margin-bottom: 1rem;
     }
 
     &__div {
-        // border: 2px solid red;
         padding: 1.6rem;
         line-height: 1.3;
 
