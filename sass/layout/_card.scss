@@ -16,7 +16,8 @@ body {
     background-color: $bg-color;
 }
 .hidden {
-    display: none;
+    position: absolute;
+    top: -999px;
 }
 
 .main {
